@@ -1,0 +1,24 @@
+{
+  "name": "ebac_talks",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickZI-Dev/ebac_talks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickZI-Dev/ebac_talks/issues"
+  },
+  "homepage": "https://github.com/NickZI-Dev/ebac_talks#readme",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "parcel": "^2.14.4"
+  }
+}
