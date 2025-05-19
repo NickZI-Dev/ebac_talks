@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./styles/main.scss">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -19,11 +20,77 @@
     <div class="container">
       <img src="./images/ebac_logo.svg" alt="EBAC" class="hero__logo">
       <p class="hero__text">
-        O maior evento de tecnologia do Brasil começa em 10d 12h 20m 14s
+        O maior evento de tecnologia do Brasil começa em <span id="count"></span>
       </p>
+      <div class="infos-bar">
+        <ul class="infos-bar__info">
+          <li class="infos-bar__info__item">
+            <b>Localização</b>
+            Allianz Parque - Barra Funda - São Paulo/SP
+          </li>
+          <li class="infos-bar__info__item">
+            <b>Preço</b>
+            A partir de R$ 129,00
+          </li>
+          <li class="infos-bar__info__item">
+            <b>Quando</b>
+            23/05/2025
+          </li>
+        </ul>
+        <a href="" class="button button--primary">Garanta sua vaga</a>
+      </div>
     </div>
   </header>
 
+  <section class="event event--is-frontend">
+    <div class="container" data-aos="fade-right">
+      <div class="event__details">
+        <h2 class="event__details__title">Front-end</h2>
+        <p class="event__details__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium et nesciunt nihil, necessitatibus maxime officia. Minima fugiat blanditiis, aperiam quasi facilis dolorem perspiciatis, et magnam pariatur corrupti, velit adipisci.
+        </p>
+      </div>
+      <img src="./images/frontend.png" alt="Front-end" class="event__image">
+    </div>
+  </section>
+
+  <section class="event event--is-uxui event--is-left">
+    <div class="container" data-aos="fade-left">
+      <div class="event__details">
+        <h2 class="event__details__title">UI/UX</h2>
+        <p class="event__details__description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet perferendis officiis reiciendis fugit mollitia animi, minima rerum labore autem veniam sed deleniti exercitationem voluptates fugiat nostrum reprehenderit beatae. Unde, illo!
+        </p>
+      </div>
+      <img src="./images/ui-ux.png" alt="UX-UI Design" class="event__image">
+    </div>
+  </section>
+
+  <section class="event event--is-datascience">
+    <div class="container" data-aos="fade-right">
+      <div class="event__details">
+        <h2 class="event__details__title">Data Science</h2>
+        <p class="event__details__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium et nesciunt nihil, necessitatibus maxime officia. Minima fugiat blanditiis, aperiam quasi facilis dolorem perspiciatis, et magnam pariatur corrupti, velit adipisci.
+        </p>
+      </div>
+      <img src="./images/frontend.png" alt="Front-end" class="event__image">
+    </div>
+  </section>
+
+  <section class="event event--is-backend event--is-left">
+    <div class="container" data-aos="fade-left">
+      <div class="event__details">
+        <h2 class="event__details__title">Back-end</h2>
+        <p class="event__details__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium et nesciunt nihil, necessitatibus maxime officia. Minima fugiat blanditiis, aperiam quasi facilis dolorem perspiciatis, et magnam pariatur corrupti, velit adipisci.
+        </p>
+      </div>
+      <img src="./images/backend.png" alt="Front-end" class="event__image">
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./scripts/main.js"></script>
 </body>
 
